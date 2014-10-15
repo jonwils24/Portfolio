@@ -70,11 +70,67 @@ p.padding {
   padding-right: 25px;
 }
 
+i {
+  color: white;
+  text-align: center;
+  align: center;
+  display: inline-block;
+}
+
+p.email {
+  color: white;
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  display: inline-block;
+  font-weight: lighter;
+}
+
+p.linkedin {
+  color: white;
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  display: inline-block;
+  font-weight: lighter;
+}
+
+.linkedin {
+  display: inline-block;
+}
+
+p.github {
+  color: white;
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  display: inline-block;
+  font-weight: lighter;
+}
+
+p.email.no-padding {
+  text-align: center;
+  padding-right: 5px;
+  display: inline-block;
+}
+
 a.center {
   color: white;
   text-align: center;
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   padding-left: 25px;
+}
+
+div.links {
+  text-align: left;
+  margin-left: 33%;
+}
+
+.left {
+  text-align: center;
+  padding-left: 40px;
+}
+
+.right {
+  text-align: center;
+  padding-right: 40px;
 }
 
 .splash_link {

@@ -6,8 +6,8 @@ Portfolio.Routers.Router = Backbone.Router.extend({
   routes: {
     '': 'splashPage',
     'about': 'aboutPage',
-    'projects': 'projectsPage',
-    'contact': 'contactPage'
+    'projects': 'projectsPage'
+    // 'contact': 'contactPage'
   },
   
   splashPage: function () {
@@ -25,10 +25,10 @@ Portfolio.Routers.Router = Backbone.Router.extend({
     this._swapView(projectsView);
   },
   
-  contactPage: function () {
-    var contactView = new Portfolio.Views.Contact();
-    this._swapView(contactView);
-  },
+  // contactPage: function () {
+ //    var contactView = new Portfolio.Views.Contact();
+ //    this._swapView(contactView);
+ //  },
   
   _swapView: function (view) {
     this._currentView && this._currentView.remove();
