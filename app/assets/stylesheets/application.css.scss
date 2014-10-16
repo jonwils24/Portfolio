@@ -77,7 +77,7 @@ i {
   display: inline-block;
 }
 
-p.email {
+a.email {
   color: white;
   text-align: center;
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
@@ -85,7 +85,7 @@ p.email {
   font-weight: lighter;
 }
 
-p.linkedin {
+a.linkedin {
   color: white;
   text-align: center;
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
@@ -97,7 +97,7 @@ p.linkedin {
   display: inline-block;
 }
 
-p.github {
+a.github {
   color: white;
   text-align: center;
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
@@ -120,7 +120,7 @@ a.center {
 
 div.links {
   text-align: left;
-  margin-left: 33%;
+  margin-left: 35%;
 }
 
 .left {
