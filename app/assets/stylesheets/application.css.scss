@@ -16,8 +16,11 @@
 @import "bootstrap";
 @import "font-awesome";
 
-body {
-  background-image: url('intro-bg.jpg');
+body { 
+  background: url('intro-bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -142,7 +145,7 @@ div.links {
 }
 
 .splash_link:hover {
-  color: black;
+  color: darkgray;
   text-decoration: none;
 }
 
@@ -157,7 +160,7 @@ div.links {
 }
 
 .splash_link_padding:hover {
-  color: black;
+  color: darkgray;
   text-decoration: none;
 }
 
@@ -168,14 +171,14 @@ h4.splash_link:hover {
 div.white_panel {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 25px;
+  margin-top: 85px;
   margin-bottom: auto;
   display: block;
   align: center;
   width: 50%;
   height: 420px;
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   overflow-y: auto;
   overflow-x: hidden;
 }
