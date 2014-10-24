@@ -14,6 +14,8 @@
 //= require jquery_ujs
 //= require underscore
 //= require backbone
+//= require snake
+//= require snake-view
 //= require bootstrap
 //= require portfolio
 //= require_tree ../templates
